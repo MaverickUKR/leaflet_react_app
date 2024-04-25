@@ -1,0 +1,81 @@
+.form__container {
+  min-width: 70vw;
+  background-color: #fff;
+  padding: 10%;
+  border-radius: 10px;
+}
+.form {
+  display: grid;
+  grid-gap: 10px;
+}
+.miniMap__btns-container {
+  display: flex;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 19px;
+}
+.miniMap__btn,
+.miniMap__btnSubmit,
+.objectLocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  box-sizing: border-box;
+  gap: 10px;
+  padding: 12px 15px;
+  background: #283149;
+  border-radius: 10px;
+  border: 1px solid #283149;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.miniMap__btnSubmit {
+  margin: 10px auto;
+}
+.miniMap__btnClose {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.miniMap__labelText {
+  font-size: 0.875rem;
+  letter-spacing: -0.02em;
+  color: #283149;
+  word-spacing: 0.07em;
+}
+.miniMap__wrapper {
+  margin-top: 10px;
+}
+.miniMap__content-wrapper {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 500;
+  border-radius: 10px;
+  gap: 30px;
+}
+.input,
+.select,
+.description,
+.objectLocation {
+  background-color: #fff;
+}
+
+.buttons__wrapper {
+  min-width: 40%;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 10px;
+  gap: 95px;
+  padding: 10px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 10px 10%;
+}

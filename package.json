@@ -1,38 +1,41 @@
 {
-  "name": "leaflet_react_app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "luxe-quality-backend",
+  "version": "1.0.0",
+  "description": "Back End for integration",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "npm install && npm start && cd ./client && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "prepare": "husky install"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "Saribeg",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "googleapis": "^118.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "lint-staged": "^13.2.2",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.10",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "sass": "^1.68.0",
+    "unique-random": "^2.1.0",
+    "validator": "^13.9.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "nodemon": "^2.0.22"
   }
 }

@@ -1,0 +1,28 @@
+.navBar__rightBlock-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+.navBar__addAnnounce-wrapper {
+  display: flex;
+  align-items: center;
+}
+.navBar__addAnnounce:hover {
+  background: rgba(206, 255, 123, 0.85);
+}
+.navBar__addAnnounce {
+  padding: 12px 20px;
+  border: none;
+  background: #ceff7b;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  color: #283149;
+}
+.navBar__announceText {
+  margin: 0 10px;
+}

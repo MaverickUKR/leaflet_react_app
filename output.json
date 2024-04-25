@@ -1,0 +1,98 @@
+[
+  {
+    "category": "Оренда квартири",
+    "announcement": "Здається 1-кімнатна квартира в Києві",
+    "description": "Квартира після капітального ремонту",
+    "price": "13000",
+    "firstName": "Володимир",
+    "lastName": "Князь",
+    "mobile": "+38 (564) 645-56-46",
+    "email": "duk@gmail.com",
+    "imgUrl": "https://lunappimg.appspot.com/lun-ua/995/600/images-cropped/1017917538.jpg",
+    "objectLocation": "",
+    "coordinates": {
+      "lat": 50.46482576822315,
+      "lng": 30.502325122413218
+    }
+  },
+  {
+    "category": "Оренда квартири",
+    "announcement": "Здається 2-кімнатна квартира в Києві",
+    "description": "Квартира після капітального ремонту",
+    "price": "32000",
+    "firstName": "Стас",
+    "lastName": "Чірва",
+    "mobile": "+38 (435) 434-54-37",
+    "email": "chyrva@gmail.com",
+    "imgUrl": "https://lunappimg.appspot.com/lun-ua/995/600/images-cropped/1017998006.jpg",
+    "objectLocation": "",
+    "coordinates": {
+      "lat": 50.46854084850631,
+      "lng": 30.513146594703276
+    }
+  },
+  {
+    "category": "Оренда квартири",
+    "announcement": "Здається 2-кімнатна квартира в Києві",
+    "description": "Квартира після капітального ремонту",
+    "price": "12000",
+    "firstName": "ddsadasdasdas",
+    "lastName": "dasdsadsa",
+    "mobile": "+38 (777) 777-77-77",
+    "email": "dsadasdas@dadsa",
+    "imgUrl": "https://ireland.apollo.olxcdn.com:443/v1/files/ttkbn0mwl3qm-UA/image;s=4608x2080",
+    "objectLocation": "",
+    "coordinates": {
+      "lat": 50.465918469193014,
+      "lng": 30.55093586301778
+    }
+  },
+  {
+    "category": "Оренда квартири",
+    "announcement": "Здається 1-кімнатна квартира в Житомирі",
+    "description": "Гарна квартира для проживання 1-2 осіб, повністю мебльована",
+    "price": "13000",
+    "firstName": "Світлана",
+    "lastName": "Гуйко",
+    "mobile": "+38 (033) 333-33-33",
+    "email": "guyko@gmail.com",
+    "imgUrl": "https://lunappimg.appspot.com/lun-ua/995/600/images-cropped/1016475657.jpg",
+    "objectLocation": "",
+    "coordinates": {
+      "lat": 50.258949209694855,
+      "lng": 28.663155852841445
+    }
+  },
+  {
+    "category": "Оренда квартири",
+    "announcement": "Здається 2-кімнатна квартира в Житомирі",
+    "description": "Гарна квартира для проживання 2-3 осіб, повністю мебльована",
+    "price": "15000",
+    "firstName": "Дмитро",
+    "lastName": "Бут",
+    "mobile": "+38 (033) 322-33-33",
+    "email": "but@gmail.com",
+    "imgUrl": "https://lunappimg.appspot.com/lun-ua/995/600/images-cropped/1017391750.jpg",
+    "objectLocation": "",
+    "coordinates": {
+      "lat": 50.25994920969485,
+      "lng": 28.664155852841446
+    }
+  },
+  {
+    "category": "Оренда квартири",
+    "announcement": "3-х кімнатна",
+    "description": "Гарна квартира для проживання 1-2 осіб, повністю",
+    "price": "32322",
+    "firstName": "ddsadasdasdas",
+    "lastName": "sadasdas",
+    "mobile": "+38 (324) 234-23-42",
+    "email": "mazepav88@gmail.com",
+    "imgUrl": "https://ireland.apollo.olxcdn.com:443/v1/files/ttkbn0mwl3qm-UA/image;s=4608x2080",
+    "objectLocation": "",
+    "coordinates": {
+      "lat": 50.47017976172576,
+      "lng": 30.39178274681131
+    }
+  }
+]
