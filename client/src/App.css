@@ -5,7 +5,6 @@
 }
 
 #root {
-  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +15,6 @@
   background-color: #f3e4d7;
 }
 
-/* height of the container */
 .leaflet-container {
   height: 90vh;
   width: 90%;

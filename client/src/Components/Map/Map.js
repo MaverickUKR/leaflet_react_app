@@ -32,18 +32,25 @@ class MapComponent extends Component {
     this.markersClusterGroup = L.markerClusterGroup();
     this.map.addLayer(this.markersClusterGroup);
 
-    // Fetch the markers data
-    fetch("http://localhost:3001/data/output.json")
-      .then((response) => response.json())
+    fetch("http://localhost:3001/data/")
+      .then((response) => {
+        if (!response.ok) {
+          // Log the response to see what it contains
+          response.text().then((text) => {
+            console.error("Failed to fetch data:", text);
+            throw new Error("Network response was not ok");
+          });
+        }
+        return response.json();
+      })
       .then((data) => {
-        this.fullMarkersList = data; // Store the full list of markers
+        this.fullMarkersList = data;
         this.setState({ markers: data, visibleMarkers: data });
       })
       .catch((error) =>
         console.error("Error loading the markers data:", error)
       );
 
-    // Update visible markers on map move or zoom
     this.map.on("moveend", () => {
       const bounds = this.map.getBounds();
       const visibleMarkers = this.fullMarkersList.filter((marker) =>

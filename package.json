@@ -10,8 +10,8 @@
     "start": "node server.js",
     "prepare": "husky install"
   },
-  "author": "Saribeg",
-  "license": "ISC",
+  "author": "backend",
+  "license": "none",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
